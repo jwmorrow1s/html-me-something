@@ -1,0 +1,96 @@
+html,body{
+    background-color: hsla(180, 50%,  30%, 1);
+    padding:0;
+    margin:0;
+    position: static;
+}
+
+a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.banner{
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100px;
+    max-height: 5vw;
+    margin: auto;
+    background-color: hsla(180, 50%, 15%, 1);
+}
+
+.nav{
+    padding: 0.8% 0 1.5% 0;
+    positon: relative;
+    width: 50%;
+    display:block;
+    margin:0 auto;
+  
+}
+
+.navItem{
+    display:inline-block;
+    list-style-type:none;
+    color:hsla(180, 0%, 100%, 1);
+    text-shadow: 1px 1px #000;
+    font-size: 2vw;
+    background-color: hsla(180, 50%, 30%, 1);
+    padding: 8px;
+    border-right: 1px solid black;
+    max-width: 6.7vw;
+}
+
+.navItem:first-child{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.navItem:last-child{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.navItem:hover{
+    background-color: hsla(180, 50%, 50%, 1);
+}
+
+.navItem:active{
+    background-color: hsla(180, 50%, 50%, 1);
+}
+
+.img{
+    padding: 30px 0 0 30px;
+    height:250px;
+    width:auto;
+    display: inline-block;
+}
+
+.container{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+}
+
+.textContainer{
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    width: 70%;
+    height: 300px;
+    background-color: hsla(180, 50%, 50%, 1);
+    display:inline-block;
+}
+
+.c2{
+    background-color: hsla(180, 50%, 20%, 1);
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.textContainer p{
+    text-align: justify;
+    padding: 0 50px;
+}
+.textContainer p:before{
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac mi dolor. Mauris ut euismod justo. Ut dapibus eu eros non viverra. Integer tincidunt enim eu metus cursus semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vitae odio in lacus consequat tristique. Pellentesque semper nisl ante, sit amet sagittis neque auctor quis. Morbi lacinia nec massa vel mattis. Suspendisse potenti. Cras non sem eu nisl consectetur gravida. Maecenas ullamcorper libero in placerat dapibus. Etiam nec ante in nunc iaculis scelerisque at ac orci. Sed dictum tristique erat.";
+}
